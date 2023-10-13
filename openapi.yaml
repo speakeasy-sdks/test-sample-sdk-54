@@ -1,0 +1,69 @@
+openapi: 3.0.0
+info:
+  title: telecon
+  version: 1.0.0
+paths:
+  /v1/workspace/update:
+    post:
+      description: update workspace
+      operationId: update-workspace
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/dto.UpdateWorkspaceRequest"
+        description: Регистрационные данные
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/dto.UpdateWorkspaceResponse"
+      tags:
+        - workspace
+servers:
+  - url: //127.0.0.1:3005
+components:
+  schemas:
+    dto.WorkspaceData:
+      properties:
+        workspace:
+          $ref: "#/components/schemas/workspace.Workspace"
+      type: object
+    dto.UpdateWorkspaceRequest:
+      properties:
+        id:
+          type: string
+        name:
+          type: string
+          nullable: true
+      type: object
+      required:
+        - id
+        - name
+    dto.UpdateWorkspaceResponse:
+      properties:
+        data:
+          $ref: "#/components/schemas/dto.WorkspaceData"
+        message:
+          type: string
+        success:
+          type: boolean
+      type: object
+    workspace.Workspace:
+      properties:
+        ID:
+          type: string
+        createdAt:
+          type: integer
+        deletedAt:
+          type: integer
+        name:
+          type: string
+        ownerID:
+          type: string
+        updatedAt:
+          type: integer
+      type: object
