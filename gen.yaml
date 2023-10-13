@@ -1,4 +1,9 @@
 configVersion: 1.0.0
+management:
+  docChecksum: c9f77bafbda584c58bdabe3861b834c6
+  docVersion: 1.0.0
+  speakeasyVersion: 1.99.1
+  generationVersion: 2.154.1
 generation:
   comments:
     disableComments: false
@@ -7,9 +12,14 @@ generation:
   sdkClassName: telecon
   singleTagPerOp: false
   tagNamespacingDisabled: false
+features:
+  typescript:
+    core: 2.90.4
+    globalServerURLs: 2.82.0
 typescript:
-  version: 0.0.1
+  version: 0.1.0
   author: test
   clientServerStatusCodesAsErrors: true
+  flattenGlobalSecurity: true
   maxMethodParams: 0
   packageName: telecon
