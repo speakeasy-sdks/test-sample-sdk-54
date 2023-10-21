@@ -2,24 +2,27 @@ configVersion: 1.0.0
 management:
   docChecksum: c9f77bafbda584c58bdabe3861b834c6
   docVersion: 1.0.0
-  speakeasyVersion: 1.99.1
-  generationVersion: 2.154.1
+  speakeasyVersion: 1.104.0
+  generationVersion: 2.169.0
 generation:
   comments:
     disableComments: false
     omitDescriptionIfSummaryPresent: false
   baseServerURL: ""
+  repoURL: https://github.com/speakeasy-sdks/test-sample-sdk-54.git
   sdkClassName: telecon
   singleTagPerOp: false
   tagNamespacingDisabled: false
 features:
   typescript:
-    core: 2.90.4
+    core: 2.93.0
     globalServerURLs: 2.82.0
 typescript:
-  version: 0.1.0
+  version: 0.2.0
   author: test
   clientServerStatusCodesAsErrors: true
   flattenGlobalSecurity: true
+  installationURL: https://github.com/speakeasy-sdks/test-sample-sdk-54
   maxMethodParams: 0
   packageName: telecon
+  repoSubDirectory: .

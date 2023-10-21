@@ -7,15 +7,15 @@
 </div>
 
 <!-- Start SDK Installation -->
-# SDK Installation
+## SDK Installation
 
-## NPM
+### NPM
 
 ```bash
 npm add https://github.com/speakeasy-sdks/test-sample-sdk-54
 ```
 
-## Yarn
+### Yarn
 
 ```bash
 yarn add https://github.com/speakeasy-sdks/test-sample-sdk-54
@@ -24,8 +24,6 @@ yarn add https://github.com/speakeasy-sdks/test-sample-sdk-54
 
 ## SDK Example Usage
 <!-- Start SDK Example Usage -->
-
-
 ```typescript
 import { Telecon } from "telecon";
 
@@ -34,7 +32,7 @@ import { Telecon } from "telecon";
 
     const res = await sdk.workspace.updateWorkspace({
         id: "<ID>",
-        name: "up South",
+        name: "string",
     });
 
     if (res.statusCode == 200) {
@@ -46,17 +44,15 @@ import { Telecon } from "telecon";
 <!-- End SDK Example Usage -->
 
 <!-- Start SDK Available Operations -->
-# Available Resources and Operations
+## Available Resources and Operations
 
 
-## [workspace](docs/sdks/workspace/README.md)
+### [workspace](docs/sdks/workspace/README.md)
 
 * [updateWorkspace](docs/sdks/workspace/README.md#updateworkspace) - update workspace
 <!-- End SDK Available Operations -->
 
 <!-- Start Dev Containers -->
-
-
 
 <!-- End Dev Containers -->
 

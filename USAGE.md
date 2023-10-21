@@ -9,7 +9,7 @@ import { Telecon } from "telecon";
 
     const res = await sdk.workspace.updateWorkspace({
         id: "<ID>",
-        name: "up South",
+        name: "string",
     });
 
     if (res.statusCode == 200) {
