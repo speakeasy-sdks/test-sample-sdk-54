@@ -20,13 +20,13 @@ src/sdk/types/index.ts
 src/sdk/types/rfcdate.ts
 tsconfig.json
 src/sdk/models/operations/updateworkspace.ts
-src/sdk/models/operations/index.ts
 src/sdk/models/shared/dtoupdateworkspaceresponse.ts
 src/sdk/models/shared/dtoworkspacedata.ts
 src/sdk/models/shared/workspaceworkspace.ts
 src/sdk/models/shared/dtoupdateworkspacerequest.ts
-src/sdk/models/shared/index.ts
 src/sdk/models/errors/index.ts
+src/sdk/models/operations/index.ts
+src/sdk/models/shared/index.ts
 USAGE.md
 docs/models/operations/updateworkspaceresponse.md
 docs/models/shared/dtoupdateworkspaceresponse.md

@@ -1,5 +1,5 @@
 # Workspace
-(*workspace*)
+(*.workspace*)
 
 ### Available Operations
 
@@ -21,6 +21,7 @@ import { Telecon } from "telecon";
     id: "<ID>",
     name: "string",
   });
+
 
   if (res.statusCode == 200) {
     // handle response
