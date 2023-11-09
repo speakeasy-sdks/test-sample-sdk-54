@@ -31,7 +31,7 @@ export class Workspace {
             this.sdkConfiguration.serverURL,
             this.sdkConfiguration.serverDefaults
         );
-        const url: string = baseURL.replace(/\/$/, "") + "/v1/workspace/update";
+        const operationUrl: string = baseURL.replace(/\/$/, "") + "/v1/workspace/update";
 
         let [reqBodyHeaders, reqBody]: [object, any] = [{}, null];
 
@@ -51,7 +51,7 @@ export class Workspace {
 
         const httpRes: AxiosResponse = await client.request({
             validateStatus: () => true,
-            url: url,
+            url: operationUrl,
             method: "post",
             headers: headers,
             responseType: "arraybuffer",

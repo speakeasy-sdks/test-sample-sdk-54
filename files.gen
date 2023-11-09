@@ -28,11 +28,11 @@ src/sdk/models/errors/index.ts
 src/sdk/models/operations/index.ts
 src/sdk/models/shared/index.ts
 USAGE.md
-docs/models/operations/updateworkspaceresponse.md
-docs/models/shared/dtoupdateworkspaceresponse.md
-docs/models/shared/dtoworkspacedata.md
-docs/models/shared/workspaceworkspace.md
-docs/models/shared/dtoupdateworkspacerequest.md
+docs/sdk/models/operations/updateworkspaceresponse.md
+docs/sdk/models/shared/dtoupdateworkspaceresponse.md
+docs/sdk/models/shared/dtoworkspacedata.md
+docs/sdk/models/shared/workspaceworkspace.md
+docs/sdk/models/shared/dtoupdateworkspacerequest.md
 docs/sdks/telecon/README.md
 docs/sdks/workspace/README.md
 .gitattributes

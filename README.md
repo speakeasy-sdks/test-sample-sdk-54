@@ -47,7 +47,7 @@ import { Telecon } from "telecon";
 ## Available Resources and Operations
 
 
-### [.workspace](docs/sdks/workspace/README.md)
+### [workspace](docs/sdks/workspace/README.md)
 
 * [updateWorkspace](docs/sdks/workspace/README.md#updateworkspace) - update workspace
 <!-- End SDK Available Operations -->
@@ -61,9 +61,35 @@ import { Telecon } from "telecon";
 <!-- Start Error Handling -->
 # Error Handling
 
-Handling errors in your SDK should largely match your expectations.  All operations return a response object or throw an error.  If Error objects are specified in your OpenAPI Spec, the SDK will throw the appropriate Error type.
+Handling errors in this SDK should largely match your expectations.  All operations return a response object or throw an error.  If Error objects are specified in your OpenAPI Spec, the SDK will throw the appropriate Error type.
+
+| Error Object    | Status Code     | Content Type    |
+| --------------- | --------------- | --------------- |
+| errors.SDKError | 400-600         | */*             |
 
 
+## Example
+
+```typescript
+import { Telecon } from "telecon";
+
+(async () => {
+    const sdk = new Telecon();
+
+    let res;
+    try {
+        res = await sdk.workspace.updateWorkspace({
+            id: "<ID>",
+            name: "string",
+        });
+    } catch (e) {}
+
+    if (res.statusCode == 200) {
+        // handle response
+    }
+})();
+
+```
 <!-- End Error Handling -->
 
 
@@ -148,8 +174,6 @@ const httpClient = axios.create({
 
 const sdk = new Telecon({defaultClient: httpClient});
 ```
-
-
 <!-- End Custom HTTP Client -->
 
 <!-- Placeholder for Future Speakeasy SDK Sections -->
