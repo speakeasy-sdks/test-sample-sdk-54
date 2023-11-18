@@ -2,8 +2,8 @@ configVersion: 1.0.0
 management:
   docChecksum: c9f77bafbda584c58bdabe3861b834c6
   docVersion: 1.0.0
-  speakeasyVersion: 1.120.3
-  generationVersion: 2.192.1
+  speakeasyVersion: 1.121.1
+  generationVersion: 2.194.1
 generation:
   comments: {}
   sdkClassName: telecon
@@ -13,9 +13,9 @@ generation:
 features:
   typescript:
     core: 3.1.4
-    globalServerURLs: 2.82.0
+    globalServerURLs: 2.82.1
 typescript:
-  version: 0.4.3
+  version: 0.4.4
   author: test
   clientServerStatusCodesAsErrors: true
   flattenGlobalSecurity: true
