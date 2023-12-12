@@ -14,7 +14,7 @@ update workspace
 ```typescript
 import { Telecon } from "telecon";
 
-(async() => {
+async function run() {
   const sdk = new Telecon();
 
   const res = await sdk.workspace.updateWorkspace({
@@ -25,7 +25,9 @@ import { Telecon } from "telecon";
   if (res.statusCode == 200) {
     // handle response
   }
-})();
+}
+
+run();
 ```
 
 ### Parameters

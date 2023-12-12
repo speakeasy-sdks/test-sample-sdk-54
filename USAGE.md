@@ -1,8 +1,8 @@
-<!-- Start SDK Example Usage -->
+<!-- Start SDK Example Usage [usage] -->
 ```typescript
 import { Telecon } from "telecon";
 
-(async () => {
+async function run() {
     const sdk = new Telecon();
 
     const res = await sdk.workspace.updateWorkspace({
@@ -13,7 +13,9 @@ import { Telecon } from "telecon";
     if (res.statusCode == 200) {
         // handle response
     }
-})();
+}
+
+run();
 
 ```
-<!-- End SDK Example Usage -->
+<!-- End SDK Example Usage [usage] -->
