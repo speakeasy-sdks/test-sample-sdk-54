@@ -1,0 +1,55 @@
+lockVersion: 2.0.0
+id: 5839b419-f1ed-4d23-8739-7f4c246e4b6c
+management:
+  docChecksum: c9f77bafbda584c58bdabe3861b834c6
+  docVersion: 1.0.0
+  speakeasyVersion: internal
+  generationVersion: 2.225.2
+  releaseVersion: 0.5.1
+  configChecksum: 5a33459c9f0e1e3457e11d8e242a58c5
+  repoURL: https://github.com/speakeasy-sdks/test-sample-sdk-54.git
+  repoSubDirectory: .
+  installationURL: https://github.com/speakeasy-sdks/test-sample-sdk-54
+features:
+  typescript:
+    core: 3.4.1
+    globalServerURLs: 2.82.1
+generatedFiles:
+  - src/sdk/workspace.ts
+  - src/sdk/sdk.ts
+  - .eslintrc.yml
+  - jest.config.js
+  - package-lock.json
+  - package.json
+  - src/index.ts
+  - src/internal/utils/contenttype.ts
+  - src/internal/utils/headers.ts
+  - src/internal/utils/index.ts
+  - src/internal/utils/pathparams.ts
+  - src/internal/utils/queryparams.ts
+  - src/internal/utils/requestbody.ts
+  - src/internal/utils/retries.ts
+  - src/internal/utils/security.ts
+  - src/internal/utils/utils.ts
+  - src/sdk/index.ts
+  - src/sdk/models/errors/sdkerror.ts
+  - src/sdk/types/index.ts
+  - src/sdk/types/rfcdate.ts
+  - tsconfig.json
+  - src/sdk/models/operations/updateworkspace.ts
+  - src/sdk/models/shared/dtoupdateworkspaceresponse.ts
+  - src/sdk/models/shared/dtoworkspacedata.ts
+  - src/sdk/models/shared/workspaceworkspace.ts
+  - src/sdk/models/shared/dtoupdateworkspacerequest.ts
+  - src/sdk/models/errors/index.ts
+  - src/sdk/models/operations/index.ts
+  - src/sdk/models/shared/index.ts
+  - docs/sdk/models/operations/updateworkspaceresponse.md
+  - docs/sdk/models/shared/dtoupdateworkspaceresponse.md
+  - docs/sdk/models/shared/dtoworkspacedata.md
+  - docs/sdk/models/shared/workspaceworkspace.md
+  - docs/sdk/models/shared/dtoupdateworkspacerequest.md
+  - docs/sdks/telecon/README.md
+  - docs/sdks/workspace/README.md
+  - USAGE.md
+  - .gitattributes
