@@ -18,8 +18,8 @@ async function run() {
   const sdk = new Telecon();
 
   const res = await sdk.workspace.updateWorkspace({
-    id: "<ID>",
-    name: "string",
+    id: "<id>",
+    name: "<value>",
   });
 
   if (res.statusCode == 200) {
