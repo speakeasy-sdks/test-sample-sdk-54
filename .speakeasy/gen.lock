@@ -3,17 +3,17 @@ id: 5839b419-f1ed-4d23-8739-7f4c246e4b6c
 management:
   docChecksum: c9f77bafbda584c58bdabe3861b834c6
   docVersion: 1.0.0
-  speakeasyVersion: internal
-  generationVersion: 2.258.2
-  releaseVersion: 0.5.2
-  configChecksum: 310d163d61ef664fd043ca8252c518c1
+  speakeasyVersion: 1.207.1
+  generationVersion: 2.280.6
+  releaseVersion: 0.5.3
+  configChecksum: d007e887824c49d8e5893435643bd51f
   repoURL: https://github.com/speakeasy-sdks/test-sample-sdk-54.git
   repoSubDirectory: .
   installationURL: https://github.com/speakeasy-sdks/test-sample-sdk-54
 features:
   typescript:
-    core: 3.4.7
-    globalServerURLs: 2.82.1
+    core: 3.4.8
+    globalServerURLs: 2.82.2
 generatedFiles:
   - src/sdk/workspace.ts
   - src/sdk/sdk.ts

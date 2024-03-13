@@ -1,6 +1,6 @@
 {
   "name": "telecon",
-  "version": "0.5.2",
+  "version": "0.5.3",
   "author": "test",
   "scripts": {
     "prepare": "tsc --build",
